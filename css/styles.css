@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    text-align: center;
+}
+h1,h2,h3 { 
+    font-family: 'Montserrat-Black',sans-serif;  
+
+}
+h2,h3{
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/*Headings*/
+.big-heading{
+    font-size: 3rem;  
+    line-height: 1.5;  
+    font-weight: 900;
+}
+.section-heading{
+    font-size: 2.5rem;
+    line-height:1.4;
+}
+
+.coloreada{
+    background-color: #ff4c68;
+    color:#f3f3f3;
+}
+.en-blanco{
+    background-color: white;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 5%;
+    text-align: left;
+}
+.container-fluid{
+    padding: 5% 15%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-nav{
+    position: absolute;
+    right: 0;
+}
+.nav-item{
+    padding: 0 16px;
+}
+
+.nav-item:hover{
+    color: white;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light',sans-serif;
+}
+
+/* botones descarga */
+.btn-descarga,.btn-descarga-apple{
+    margin: 5% 3% 5% 0;
+}
+.btn-descarga-apple:hover{
+    background-color: white;
+    color: black;
+}
+.edit-img{
+    position: absolute;
+    width: 18%;
+    transform: rotate(25deg);
+    left:60%;
+}
+
+#features{
+    position: relative;
+}
+.feature-box{
+    padding: 5%;
+}
+.feature-tex{
+    font-size: 1.2rem;
+}
+
+/*iconos*/
+
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/*testimonios*/
+
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.test-img{
+    width: 15%;
+    border-radius: 100%;
+    margin:0 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 40px;
+}
+
+
+/*precios*/
+.price-text{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.card-body button{
+    width: 90%;
+}
+
+.btn-dark:hover{
+    background-color: white;
+    color: black;
+}
+
+.precio{
+    padding:2% 2%;
+}
+
+
+.cta-title{
+    font-family: 'Montserrat-Black',sans-serif;
+    font-size: 2.8rem;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+
+/*footer*/
+.social-icon{
+    margin: 15px 20px;
+}
+.social-icon:hover{
+    background-color:black;
+    color: white;
+    border-radius: 100%;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .edit-img{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+}
